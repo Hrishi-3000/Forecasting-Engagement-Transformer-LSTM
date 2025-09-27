@@ -44,31 +44,6 @@ The dataset consists of the following files:
 - `GSR.csv`: Skin conductance/resistance values
 
 ---
-
-## Project Structure
-project/
-├── data/
-│ ├── ENG.csv
-│ ├── EEG.csv
-│ ├── GSR.csv
-│ ├── EYE.csv
-│ └── IVT.csv
-├── notebooks/
-│ ├── 01_preprocessing.ipynb
-│ ├── 02_feature_engineering.ipynb
-│ ├── 03_modeling_baseline_timeseries.ipynb
-│ ├── 04_modeling_LSTM_GRU.ipynb
-│ ├── 05_modeling_transformer.ipynb
-│ └── 06_analysis_forecasting.ipynb
-├── models/
-│ ├── baseline_forecast.pkl
-│ ├── lstm_model.pt
-│ └── transformer_model.pt
-└── README.md
-
-
----
-
 ## Workflow
 
 ### Step 1: Data Understanding & Preparation
